@@ -7,7 +7,6 @@ alias thneedssh="ssh -X thneed.physics.ucf.edu"
 
 alias please='sudo `fc -n -l -1`'
 alias nukesound="pulseaudio -k && pulseaudio --start"
-alias cfgrep='egrep -v "^[[:space:]]*($|#)"'
 alias suu='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade'
 alias iwant='sudo apt-get install'
 
