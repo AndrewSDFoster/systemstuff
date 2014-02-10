@@ -2,10 +2,8 @@ export PATH=$PATH:./
 export EDITOR=vim
 
 alias exovnc="xvnc4viewer -Shared -via foster@exo.physics.ucf.edu exo.physics.ucf.edu:42"
-alias thneedvnc="xvnc4viewer -Shared -via foster@thneed.physics.ucf.edu thneed.physics.ucf.edu:42"
 alias exossh="ssh -X exo.physics.ucf.edu"
 alias thneedssh="ssh -X thneed.physics.ucf.edu"
-alias eustis="ssh an333939@eustis.eecs.ucf.edu"
 
 alias please='sudo `fc -n -l -1`'
 alias nukesound="pulseaudio -k && pulseaudio --start"
