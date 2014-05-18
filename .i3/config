@@ -149,18 +149,26 @@ bar {
         status_command i3status
 }
 
-#start network and sound managers
+#start network manager
 exec --no-startup-id nm-applet
-exec --no-startup-id gnome-sound-applet
+
+#sound
+exec --no-startup-id volti
 
 #no window title bar
 new_window pixel
 
 #lock screen
-bindsym $mod+Shift+o exec "gnome-screensaver-command --lock "
+bindsym $mod+Shift+o exec "i3lock -i /home/foster/Pictures/vlcsnap-2014-04-16-06h48m17s100.png -t"
 
 #Wallpaper
 #exec --no-startup-id feh --bg-fill /path/to/picture.jpg
 
 #For GTK themes use gtk-theme-switcher or possibly:
-#exec --no-startup-id gnome-settings-daemon
+exec --no-startup-id gnome-settings-daemon
+
+#allow for suspend and other useful things
+exec --no-startup-id gnome-screensaver
+
+#start dropbox
+exec --no-startup-id dropbox start
