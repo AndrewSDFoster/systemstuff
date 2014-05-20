@@ -13,5 +13,5 @@ alias l='ls'
 alias cp='cp -aiv'
 alias mv='mv -iv'
 
-EXTHOUSEIP=184.88.42.173
+EXTHOUSEIP=50.88.213.247
 INTHOUSEIP=192.168.10.104
