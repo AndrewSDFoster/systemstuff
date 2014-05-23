@@ -152,9 +152,6 @@ bar {
 #start network manager
 exec --no-startup-id nm-applet
 
-#sound
-exec --no-startup-id volti
-
 #no window title bar
 new_window pixel
 
@@ -172,3 +169,6 @@ exec --no-startup-id gnome-screensaver
 
 #start dropbox
 exec --no-startup-id dropbox start
+
+#sound
+exec --no-startup-id cinnamon-sound-applet
