@@ -11,6 +11,7 @@ alias suu='sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgr
 alias ls='ls --color=auto -F'
 alias l='ls'
 alias cp='cp -aiv'
+alias rm='rm -iv'
 alias mv='mv -iv'
 
 EXTHOUSEIP=50.88.213.247
