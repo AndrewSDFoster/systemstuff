@@ -178,7 +178,7 @@ exec --no-startup-id feh --bg-fill /home/foster/Pictures/ThankYouBerrytube.png
 exec --no-startup-id gnome-settings-daemon
 
 #allow for suspend and other useful things
-exec --no-startup-id cinnamon-screensaver
+#exec --no-startup-id cinnamon-screensaver
 
 #start dropbox
 exec --no-startup-id dropbox start
