@@ -1,4 +1,3 @@
-export PATH=$PATH:./
 export EDITOR="vim"
 
 alias exovnc="xvnc4viewer -Shared -via foster@exo.physics.ucf.edu exo.physics.ucf.edu:42"
