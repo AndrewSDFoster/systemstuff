@@ -1,6 +1,9 @@
+PS1='\[\e[38;5;5m\]\t (\#)\[\e[0m\] \[\e[1;32m\][\u@\h \W]\$\[\e[0m\] '
+
 export EDITOR="vim"
 
 alias exovnc="xvnc4viewer -Shared -via foster@exo.physics.ucf.edu exo.physics.ucf.edu:42"
+alias thneedvnc="xvnc4viewer -Shared -via foster@thneed.physics.ucf.edu thneed.physics.ucf.edu:42"
 alias exossh="ssh exo.physics.ucf.edu"
 alias thneedssh="ssh thneed.physics.ucf.edu"
 
